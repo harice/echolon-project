@@ -10,8 +10,8 @@ export PGHOST="postgres"
 export PGUSER="postgres"
 export PGPASSWORD=$POSTGRES_PASSWORD
 
-export GENESIS_PROJECT_DB_NAME="genesis-project-api"
-export GENESIS_PROJECT_DB_USER="genesis-project-api"
-export GENESIS_PROJECT_DB_PASS="insecuredevpassword"
-export GENESIS_PROJECT_DB_HOST="postgres"
-export GENESIS_PROJECT_DB_PORT=5432
+export ECHOLON_PROJECT_DB_NAME="echolon-project"
+export ECHOLON_PROJECT_DB_USER="echolon-project"
+export ECHOLON_PROJECT_DB_PASS="insecuredevpassword"
+export ECHOLON_PROJECT_DB_HOST="postgres"
+export ECHOLON_PROJECT_DB_PORT=5432

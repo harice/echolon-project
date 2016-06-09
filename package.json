@@ -1,7 +1,7 @@
 {
-  "name": "genesis-project-api",
+  "name": "echolon-project",
   "version": "0.0.1",
-  "description": "genesis-project-api",
+  "description": "echolon-project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ElementzInteractive/genesis-project-api.git"
+    "url": "https://github.com/harice/echolon-project"
   },
   "author": "ElementzInteractive",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ElementzInteractive/genesis-project-api/issues"
+    "url": "https://github.com/harice/echolon-project/issues"
   },
-  "homepage": "https://github.com/ElementzInteractive/genesis-project-api",
+  "homepage": "https://github.com/harice/echolon-project",
   "dependencies": {
     "async": "^1.5.0",
     "aws-sdk": "^2.2.0",

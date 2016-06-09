@@ -1,4 +1,4 @@
-# Genesis Project API
+# Echolon Project API
 
 This repo will serve as the standard development boilerplate / framework / starting ground for all future Backend APIs of Elementz Web Development projects.
 
@@ -16,7 +16,7 @@ Head on over to https://www.docker.com/docker-toolbox and download the latest ve
 
 We use rsync to sync code from your local machine into the docker machine for use by Docker. This allows native support for file system watchers inside the container.
 
-The code in this repo should be sync'd to the `/projects/genesis-project-api` folder inside the docker machine.
+The code in this repo should be sync'd to the `/projects/echolon-project` folder inside the docker machine.
 
 For OS-X users, you can easily use the `docker-rsync` tool to automate this for you. There is also a provided make command `make sync` in this repo to make this easy.
 
@@ -93,15 +93,15 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-c
 
 Once you have completed the installation of the dependencies above. You are ready to setup the cluster.
 
-1. Pull down repo to `~/Workspace/projects/genesis-project-api`
+1. Pull down repo to `~/Workspace/projects/echolon-project`
 
-    `git clone git@github.com:ElementzInteractive/genesis-project-api.git ~/Workspace/projects/genesis-project-api`
+    `git clone git@github.com:harice/echolon-project.git ~/Workspace/projects/echolon-project`
 
 2. Create a symlink to be used as a volume, and maintain compatibility with your OS X friends
 
     `ln -s ~/Workspace/projects /projects`
 
-3. `cd ~/Workspace/projects/genesis-project-api`
+3. `cd ~/Workspace/projects/echolon-project`
 4. `ln -s ./envs/.envvars.local .envvars`
 5. `make build`
 6. `make up`

@@ -28,10 +28,10 @@ COPY package.json /tmp/app/package.json
 RUN cd /tmp/app/ && npm install
 
 # create app log folder
-RUN mkdir -p /var/log/genesis-project-api
+RUN mkdir -p /var/log/echolon-project
 
 # forward request and error logs to docker log collector
-RUN ln -sf /dev/stdout /var/log/genesis-project-api/genesis-project-api.log
+RUN ln -sf /dev/stdout /var/log/echolon-project/echolon-project.log
 
 # add our app files
 RUN mkdir -p $PROJECT_ROOT

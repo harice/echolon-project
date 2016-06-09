@@ -32,7 +32,7 @@ const config = {
   api: {
     swagger: {
       info: {
-        title: 'genesis-project-api',
+        title: 'echolon-project',
         description: 'API Documentation',
       },
       securityDefinitions: [{
@@ -67,18 +67,18 @@ const config = {
   },
 
   media: {
-    bucket: 'genesis-project-api',
+    bucket: '',
     cloudfront: '' //cloudfront URL here
   },
 
   db: {
     sequelize: {
-      name: process.env.GENESIS_PROJECT_DB_NAME,
-      user: process.env.GENESIS_PROJECT_DB_USER,
-      pass: process.env.GENESIS_PROJECT_DB_PASS,
-      port: process.env.GENESIS_PROJECT_DB_PORT,
-      host: process.env.GENESIS_PROJECT_DB_HOST,
-      database: process.env.GENESIS_PROJECT_DB_NAME,
+      name: process.env.ECHOLON_PROJECT_DB_NAME,
+      user: process.env.ECHOLON_PROJECT_DB_USER,
+      pass: process.env.ECHOLON_PROJECT_DB_PASS,
+      port: process.env.ECHOLON_PROJECT_DB_PORT,
+      host: process.env.ECHOLON_PROJECT_DB_HOST,
+      database: process.env.ECHOLON_PROJECT_DB_NAME,
       dialect: 'postgres',
       logging: {
         $filter: 'env',
